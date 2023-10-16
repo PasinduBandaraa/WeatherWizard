@@ -90,13 +90,15 @@ body{
 }
 
 .col{
+    
     display: flex;
     align-items: center;
     text-align: left;
 }
 
 .col img{
-    width: 40px;
+    width: 40
+    px;
     margin-right: 10px;
     height: auto;
 
