@@ -52,12 +52,22 @@ body{
     width: 60px;
     height: 60px;
     cursor: pointer;
+    transition: 0.5s;
 
 }
 
 .search button img{
     width: 16px;
     height: auto;
+}
+
+.search button:hover{
+    transform: scale(0.93); 
+}
+
+.search #cityInput  {
+    font-size: 1.2rem;
+    padding-left: 40px;
 }
 
 .weather-icon{
@@ -70,6 +80,7 @@ body{
 .weather h1{
     font-size:80px;
     font-weight: 500;
+    
 
 }
 
