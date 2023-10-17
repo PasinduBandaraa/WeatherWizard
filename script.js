@@ -23,3 +23,29 @@ const getWeather = async () => {
 };
 
 document.getElementById('getWeather').addEventListener('click', getWeather);
+  
+
+// dark mode
+const darkmode = async()=>{
+    var ele = document.getElementById('body');
+    var att = ele.getAttribute('class');
+    if(att==='light'){
+        ele.removeAttribute('class');
+        ele.setAttribute('class','darkmode');
+    }
+    else{
+        ele.removeAttribute('class');
+        ele.setAttribute('class','light');
+    }
+    var Boxelement = document.getElementById('container');
+    var Boxatt = Boxelement.getAttribute('class');
+    if(Boxatt==='lightBox'){
+        Boxelement.removeAttribute('class');
+        Boxelement.setAttribute('class','darkBox');
+    }
+    else{
+        Boxelement.removeAttribute('class');
+        Boxelement.setAttribute('class','lightBox');
+    }
+}
+document.getElementById('dark').addEventListener('click',darkmode);

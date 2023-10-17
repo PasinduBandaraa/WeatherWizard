@@ -1,16 +1,27 @@
-body {
+.light {
     font-family: Arial, sans-serif;
     background-color: #f0f0f0;
     text-align: center;
 }
-
-.container {
+.darkmode{
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: rgb(24 21 55);
+}
+#container {
     max-width: 400px;
     margin: 0 auto;
-    background-color: #fff;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.lightBox{
+    background-color: #fff;
+    color: black;
+}
+.darkBox{
+    background-color: rgba(98, 88, 226, 0.1);
+    color: white;
 }
 
 h1 {
